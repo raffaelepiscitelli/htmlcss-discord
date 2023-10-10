@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
@@ -16,11 +17,11 @@
 
         <div class="upper-header flex">
 
-            <div id="logo" class="black-border">
+            <div id="logo">
             </div>
 
             <nav>
-                <ul  class=" ul-link black-border flex">
+                <ul  class=" ul-link flex">
                     <li>Scarica</li>
                     <li>Perché Discord</li>
                     <li>Nitro</li>
@@ -29,15 +30,15 @@
                 </ul>
             </nav>
 
-            <div class="login black-border">
-                <button>Accedi</button>
+            <div class="login">
+                <button class="login-button">Accedi</button>
             </div>
 
         </div>
 
         <div class="jumbo flex container">
 
-            <div class="box-pink black-border">
+            <div class="box-jumbo">
 
                 <h1 id="title">
                     Il tuo posto per parlare
@@ -47,9 +48,9 @@
                     Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica <br> mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo <br> assiame, Discord rende più facile chiaccherare ogni giorno e ritrovarsi più spesso.
                 </p>
 
-                <button>Scarica per Mac</button>
+                <button class="button-download">Scarica per Mac</button>
 
-                <button>Apri Discord nel tuo browser</button>
+                <button class="button-browser">Apri Discord nel tuo browser</button>
 
             </div>
 
@@ -63,13 +64,17 @@
 
             <div class="container-white flex container">
 
-                <div class="frog-picture black-border"></div>
+                <div class="frog-picture"></div>
 
-                <div class="box-soft-pink black-border">
+                <div class="function">
 
                     <h2>
                         Un luogo a <br> invito con tutto <br> lo spazio <br> necessario per <br> parlare
                     </h2>
+
+                    <p class="text">
+                        I server Discord sono organizzati in <br> canali tematici in cui puoi collaborare, condividere o semplicemnte parlare <br> della tua giornata senza intasare una <br> chat di gruppo.
+                    </p>
 
                 </div>
 
@@ -81,15 +86,19 @@
 
             <div class="container-grey flex container">
 
-                <div class="box-soft-pink black-border">
+                <div class="function">
 
                     <h2>
                         Dove trovarsi è facile
                     </h2>
 
+                    <p class="text">
+                        Mettiti comodo in un canale vocale <br> quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi instantaneamente senza dover chiamare.
+                    </p>
+
                 </div>
 
-                <div class="magician-picture black-border">
+                <div class="magician-picture">
 
                 </div>
 
@@ -101,15 +110,19 @@
 
             <div class="container-white flex container">
 
-                <div class="book-picture black-border">
+                <div class="book-picture">
 
                 </div>
 
-                <div class="box-soft-pink black-border">
+                <div class="function">
 
                     <h2>
                         Da pochi a un fandom
                     </h2>
+
+                    <p class="text">
+                        Dai inzio ad una community di qualsiasi dimensione con strumenti di <br> moderazione e accesso ai membri personalizzabile. Concedi ai membri <br> poteri speciali, crea canali privati, e <br> molto altro. 
+                    </p>
 
                 </div>
 
@@ -119,10 +132,28 @@
 
         <section>
 
-            <div class="container-grey flex container">
+            <div class="container-grey-column flex container">
 
-                <div class="box-green black-border">
+                <div>
 
+                    <h2  class="function-low">
+                        Tecnologia affidabile per tenersi in contatto
+                    </h2>
+    
+                    <p class="text-low">
+                       Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda <br> gli amici giocare in streaming, o riunitevi in sessione di disegno con la condivisione schermo.
+                    </p>
+    
+                </div>
+
+                <div class="big-picture"></div>
+
+                <div class="stars">
+                    
+                    <h3 
+                        class="function-low">Pronto a iniziare la tua avventura?
+                    </h3>
+                
                 </div>
 
             </div>
@@ -133,23 +164,82 @@
 
             <div class="container-black flex">
 
-                <div class="column-big black-border">
+                <div class="column-big">
+
+                    <h3 class="h3-footer">Il tuo posto per <br> parlare</h3></li>
+                    
+                    <img id="italian-flag" src="./img/ita.png" alt="italian flag">
+                    
+                    <span>Italiano <i class="fa-solid fa-chevron-down" style="color: #f5f5f5;"></i></span>
+                    
+                    <div class="social">
+                        
+                        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                    
+                    </div>
+                
+                </div>
+
+                <div class="column-small">
+
+                    <ul>
+                        <li class="li-head">Prodotto</li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
 
                 </div>
 
                 <div class="column-small">
 
+                    <ul>
+                        <li class="li-head">Compagnia</li>
+                        <li>Chi siamo</li>
+                        <li>Lavora con noi</li>
+                        <li>Marchio</li>
+                        <li>Redazione</li>
+                        <li>Negozio</li>
+                    </ul>
+
                 </div>
 
                 <div class="column-small">
+                    
+                    <ul  class="ul-footer">
+                        <li class="li-head">Risorse</li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                        <li>Risorse</li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                        <li>Assistenza</li>
+                    </ul>
 
                 </div>
 
                 <div class="column-small">
-
-                </div>
-
-                <div class="column-small">
+                    
+                    <ul>
+                        <li class="li-head">Norme</li>
+                        <li>Risorse</li>
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
 
                 </div>
 
@@ -161,16 +251,12 @@
 
     <footer class="footer">
 
-        <div class="box-light-green">
+        <div class="box-footer">
 
-            <div id="logo-footer" class="flex black-border">
-                Logo
+            <div id="logo-footer" class="flex"></div>
 
-            </div>
-
-            <div id="bottone" class="flex black-border">
-                Bottone
-
+            <div id="bottone" class="flex">
+                Registrati
             </div>
 
         </div>
