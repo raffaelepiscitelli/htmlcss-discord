@@ -55,8 +55,9 @@ header {
     padding-bottom: 5%;
 }
 
-.container-blue {
-    background-color: #00008B;
+.jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .box-pink {
