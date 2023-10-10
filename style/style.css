@@ -1,0 +1,145 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #ADD8E6;
+    height: 660px;
+}
+
+.black-border {
+    border: black dashed 4px;
+}
+
+.upper-header {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+#logo {
+    background-color: #DAA520;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+   }
+
+.link {
+    background-color: #DAA520;
+    height: 50px;
+    width: 800px;
+}
+
+.login {
+    background-color: #DAA520;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container-blue {
+    background-color: #00008B;
+}
+
+.box-pink {
+    background-color: #EE82EE;
+    height: 430px;
+    width: 60%;
+}
+
+.container-white {
+    background-color: white;
+    flex-direction: row;
+}
+
+.box-blue {
+    background-color: #1E90FF;
+    height: 500px;
+    width: 50%;
+}
+
+.box-soft-pink {
+    background-color: #FFC0CB;
+    height: 500px;
+    width: 30%;
+}
+
+.container-grey {
+    background-color: #D3D3D3;
+    flex-direction: row;  
+}
+
+.box-green {
+    background-color: #228B22;
+    height: 800px;
+    width: 80%;
+}
+
+.container-black {
+    background-color: #23272A;
+    flex-direction: row;
+    border-bottom: solid 5px white;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.column-big {
+    background-color: #F08080;
+    height: 600px;
+    width: 25%;
+}
+
+.column-small {
+    background-color: #20B2AA;
+    height: 600px;
+    width: calc((80% - 25%)/4);
+    border: white dashed 4px;
+}
+
+footer {
+    background-color: #23272A;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box-light-green {
+    background-color: #7FFFD4;
+    width: 80%;
+    height: 70%;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-footer {
+    background-color: #FFB6C1;
+    width: 5%;
+    height: 30px;
+}
+
+#bottone {
+    background-color: #FFB6C1;
+    width: 6%;
+    height: 30px;
+}
