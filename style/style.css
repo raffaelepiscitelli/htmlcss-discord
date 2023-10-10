@@ -94,17 +94,36 @@ header {
     flex-direction: row;
 }
 
-.box-blue {
-    background-color: #1E90FF;
+.frog-picture {
+    background-image: url(../img/item1.svg);
+    background-size: cover;
     height: 500px;
     width: 50%;
 }
 
 .box-soft-pink {
-    background-color: #FFC0CB;
     height: 500px;
     width: 30%;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    color: rgb(35, 39, 42);
+    font-size: 30px;
 }
+
+.magician-picture {
+    background-image: url(../img/item2.svg);
+    background-size: cover;
+    height: 500px;
+    width: 50%; 
+}
+
+.book-picture {
+    background-image: url(../img/item3.svg);
+    background-size: cover;
+    height: 500px;
+    width: 50%; 
+}
+
 
 .container-grey {
     background-color: #D3D3D3;
