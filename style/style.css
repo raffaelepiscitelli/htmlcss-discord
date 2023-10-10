@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
 .flex {
     display: flex;
     justify-content: center;
@@ -12,12 +16,12 @@
 }
 
 header {
-    background-color: #ADD8E6;
-    height: 660px;
+    background-color: rgb(37, 94, 233);
+    height: 579px;
 }
 
 .black-border {
-    border: black dashed 4px;
+    border: black dashed 1px;
 }
 
 .upper-header {
@@ -26,7 +30,8 @@ header {
 }
 
 #logo {
-    background-color: #DAA520;
+    background-image: url(../img/logo.svg);
+    background-size: cover;
     height: 50px;
     width: 200px;
     display: flex;
@@ -34,14 +39,15 @@ header {
     padding-left: 10px;
    }
 
-.link {
-    background-color: #DAA520;
+.ul-link {
     height: 50px;
     width: 800px;
+    list-style-type: none;
+    justify-content: space-around;
+    color: white;
 }
 
 .login {
-    background-color: #DAA520;
     height: 50px;
     width: 200px;
     display: flex;
@@ -60,10 +66,27 @@ header {
     background-size: cover;
 }
 
+#title {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#introduction {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+
 .box-pink {
-    background-color: #EE82EE;
     height: 430px;
     width: 60%;
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
 }
 
 .container-white {
